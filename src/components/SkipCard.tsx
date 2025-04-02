@@ -37,7 +37,7 @@ const SkipCard = ({
           {yardSize} Yards
         </div>
         {privateOnly && (
-          <div className="w-max bg-[#030405] text-yellow-400 px-3 py-1 rounded-md font-medium flex items-center">
+          <div className="w-max bg-[#030405] text-yellow-400 text-[14px] px-3 py-1 rounded-md font-medium flex items-center">
             <AlertTriangle className="w-4 h-4 mr-2" />
             Private Property Only
           </div>
